@@ -7,7 +7,7 @@
 
 header h1,
 section h2 {
-    font-family: 'Roboto Slab', serif;;
+    font-family: 'Roboto Slab', serif;
 }
 
 body {
@@ -130,4 +130,12 @@ input:focus, textarea:focus {
 
 .social-links li a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    header .container,
+    section .container{
+        width:100%;
+        flex-direction: column;
+    }
 }
