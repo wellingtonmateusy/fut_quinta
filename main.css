@@ -7,18 +7,18 @@
 
 header h1,
 section h2 {
-    font-family: 'Bungee', cursive;
+    font-family: 'Roboto Slab', serif;;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 /* ESTILO 2 */
 
 header, footer{
     padding: 16px;
-    background-color: #182c61;
+    background-color: #DDA73C;
     color: #ecf0f1;
 }
 
@@ -70,7 +70,7 @@ section h2 {
 }
 
 section {
-    color: #182c61;
+    color: #257361;
 }
 
 section p{
@@ -92,6 +92,10 @@ section p{
     justify-content: space-between;
 }
 
+.contact-methods img {
+    height: 90px;
+}
+
 form input,
 form textarea,
 form button {
@@ -101,18 +105,18 @@ form button {
 }
 
 form button {
-    background-color: #182c61;
+    background-color: #DDA73C;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #257361;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182c61;
+    outline-color: #257361;
 }
 
 .social-links img {
