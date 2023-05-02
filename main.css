@@ -48,16 +48,8 @@ section .container{
     justify-content: space-between;
 }
 
-/* ESTILO 5 */
-.brands-list img {
-    height: 24px;
-}
-.brands-list li {
-    display: inline;
-    margin: 8px;
-}
 
-/* ESTILO 6 */
+/* ESTILO 5 */
 section .container {
     align-items: flex-start;
 }
@@ -78,7 +70,7 @@ section p{
     margin-bottom: 8px;
 }
 
-/* ESTILO 8 */
+/* ESTILO 6 */
 .store-front {
     margin-right: 32px;
 }
@@ -90,6 +82,7 @@ section p{
 .contact-methods {
     display: flex;
     justify-content: space-between;
+    margin-right: 500px;
 }
 
 .contact-methods img {
@@ -104,11 +97,21 @@ form button {
     margin-bottom: 8px;
 }
 
-form button {
+form button, label {
     background-color: #DDA73C;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
+}
+
+label {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+}
+
+input[type="file"] {
+    display: none;
 }
 
 form button:hover {
@@ -132,10 +135,7 @@ input:focus, textarea:focus {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    header .container,
-    section .container{
-        width:100%;
-        flex-direction: column;
-    }
+footer {
+    margin-top: 358px;
 }
+

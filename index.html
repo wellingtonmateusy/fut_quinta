@@ -10,7 +10,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Roboto+Slab&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <header>
@@ -19,13 +18,10 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#about">Regras da Lista</a>
+                            <a href="regras.html">Regras da Lista</a>
                         </li>
                         <li>
-                            <a href="#contact">Prencha seu nome</a>
-                        </li>
-                        <li>
-                            <a href="#listac">Lista Completa</a>
+                            <a href="lista.html">Lista dos confirmados</a>
                         </li>
                     </ul>
                 </nav>
@@ -35,32 +31,6 @@
         <section id="about">
             <div class="container">
                 <img class="store-front" src="/Midias/bar.png" alt="Logo do Bar&Bola"/>
-                <div>
-                    <h2>Regras da Lista</h2>
-                    <p>
-                        💲 Valor: Para 10 Jogadores = R$12,00 💲
-                    </p>
-                    <p>
-                        💲 Valor: Para 12 ou + Jogadores = R$10,00 💲
-                    </p>
-                    <p>
-                        ⚠️Colocar o nome apenas quem irá jogar⚠️
-                    </p>
-                    <p>
-                        ❗❗ Em caso de faltar remover o nome da lista ou avisar até às 17:00 horas,
-                        porque após esse horário será cobrado o valor do jogo de quem estiver na lista e não for no jogo❗❗
-                    </p>
-                    <p>
-                        ❗ ❗ Pessoal devido ao jogo ter duração de 1 hora,mais que 3 times fica complicado de todos
-                        aproveitarem igualmente, então por isso a partir de hoje a lista passa a ter um limite de 15 pessoas. ❗ ❗
-                    </p>
-                    <ul class="brands-list">
-                        <li><img src="/Midias/nike.png" alt="Nike"/></li>
-                        <li><img src="/Midias/adidas.png" alt="Adidas" /></li>
-                        <li><img src="/Midias/puma.png" alt="Puma"/></li>
-                    </ul>
-                </div>
-            </div>
             <section id="contact">
                 <div class="container">
                     <h2>Lista do Fut de Quinta-feira</h2>
@@ -73,20 +43,21 @@
                                 <p>
                                     Chave Pix = (51) 982550915
                                 </p>
-                                <input type="file" name="Comprovante" class="btn-success" multiple required/>
+                                <label for="arquivo">Enviar o comprovante</label>
+
+                                <input type="file" name="arquivo" id="arquivo">
+
                                 <button type="submit">Enviar</button>
                             </form>
-                        </div>
-                        <div>
                             <h3>Fale Comigo</h3>
                             <ul class="social-links">
                                 <li>
-                                    <a href="#" title="Meu WhatsApp">
+                                    <a href="https://api.whatsapp.com/send?phone=5551982550915" title="Meu WhatsApp">
                                         <img src="/Midias/whatsapp.png" alt="Logo do WhatsApp" />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" title="Meu Telegram">
+                                    <a href="https://t.me/wellingtonmateusy" title="Meu Telegram">
                                         <img src="/Midias/telegram.png" alt="Logo do Telegram" />
                                     </a>
                                 </li>
@@ -96,8 +67,6 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
-                        <div>
                             <h3>Endereço do Bar&Bola</h3>
                             <p>
                                 Rua Jorge Calil Flores - 192 - 94410-233 Viamão RS
@@ -105,8 +74,10 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </section>
         </section>
+            
         <footer>
                 <p>© Inimigos da bola - Todos os direitos reservados - 2023</p>
         </footer>
