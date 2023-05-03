@@ -42,23 +42,6 @@ header .container {
     justify-content: space-between;
 }
 
-.regras h1 {
-    color: #257361;
-}
-
-.lista-img {
-    margin-top: 20px;
-    height: 400px;
-}
-
-.brands-list img {
-    height: 24px;
-}
-.brands-list li {
-    display: inline;
-    margin: 8px;
-}
-
 footer {
-    margin-top: 259px;
+    margin-top: 864px;
 }
